@@ -45,7 +45,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(148, 46);
+            this.label1.Location = new System.Drawing.Point(222, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(288, 31);
             this.label1.TabIndex = 0;
@@ -55,11 +55,11 @@
             // 
             this.labelTime.AutoSize = true;
             this.labelTime.BackColor = System.Drawing.Color.Transparent;
-            this.labelTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 56F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTime.Font = new System.Drawing.Font("Roboto", 85F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTime.ForeColor = System.Drawing.Color.White;
-            this.labelTime.Location = new System.Drawing.Point(55, 144);
+            this.labelTime.Location = new System.Drawing.Point(30, 110);
             this.labelTime.Name = "labelTime";
-            this.labelTime.Size = new System.Drawing.Size(474, 85);
+            this.labelTime.Size = new System.Drawing.Size(700, 137);
             this.labelTime.TabIndex = 1;
             this.labelTime.Text = "04:20:07 AM";
             // 
@@ -67,11 +67,11 @@
             // 
             this.labelDate.AutoSize = true;
             this.labelDate.BackColor = System.Drawing.Color.Transparent;
-            this.labelDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 29F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDate.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDate.ForeColor = System.Drawing.Color.White;
-            this.labelDate.Location = new System.Drawing.Point(68, 265);
+            this.labelDate.Location = new System.Drawing.Point(1, 268);
             this.labelDate.Name = "labelDate";
-            this.labelDate.Size = new System.Drawing.Size(448, 44);
+            this.labelDate.Size = new System.Drawing.Size(730, 86);
             this.labelDate.TabIndex = 2;
             this.labelDate.Text = "Jumabar, 17 April 2020";
             // 
@@ -82,10 +82,11 @@
             // buttonExit
             // 
             this.buttonExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(26)))), ((int)(((byte)(46)))));
+            this.buttonExit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(1)))), ((int)(((byte)(1)))));
             this.buttonExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 27F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonExit.ForeColor = System.Drawing.Color.White;
-            this.buttonExit.Location = new System.Drawing.Point(533, 12);
+            this.buttonExit.Location = new System.Drawing.Point(673, 12);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(47, 50);
             this.buttonExit.TabIndex = 3;
@@ -96,7 +97,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Clock.Properties.Resources.icons8_love_32px;
-            this.pictureBox3.Location = new System.Drawing.Point(278, 368);
+            this.pictureBox3.Location = new System.Drawing.Point(426, 435);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(29, 32);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -109,7 +110,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(121, 368);
+            this.label2.Location = new System.Drawing.Point(268, 435);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(443, 31);
             this.label2.TabIndex = 7;
@@ -120,7 +121,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(40)))), ((int)(((byte)(69)))));
-            this.ClientSize = new System.Drawing.Size(592, 418);
+            this.ClientSize = new System.Drawing.Size(732, 485);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonExit);
